@@ -1,33 +1,18 @@
 # Project Title
-Insert the name of your project
+The Drollic Dreamer
 
 ## Authors
-- Insert main author name, surname, github account
-- Insert other author(s) name, surname, github account (one per list element)
+- Ray Matthieu, https://github.com/drollicdotcom
 
 ## Description
-Insert a description containing about 100 to 150 words, including your motivation and the meaning behind your idea and execution. The Judges will be keen to know how your idea pushes the boundaries of code and technology. 
+The Dreamer is an application that will turn any word or phrase into a completely unique abstract work of art -- a "dream" that has some strange yet meaningful relationship to the input. The results are always unique.
 
-## Link to Prototype
-NOTE: If your project lives online you can add one or more links here. Make sure you have a stable version of your project running before linking it.
+By using image search engines, The Dreamer works by finding images related to the input, performing a painterly analysis, and rendering the results together to form a unified abstract image.
 
-[Example Link](http://www.google.com "Example Link")
-
-## Example Code
-NOTE: Wrap your code blocks or any code citation by using ``` like the example below.
-```
-function test() {
-  console.log("Printing a test");
-}
-```
-## Links to External Libraries
- NOTE: You can also use this space to link to external libraries or Github repositories you used on your project.
-
-[Example Link](http://www.google.com "Example Link")
+My motivation behind making the Dreamer was to discover a kind of computer-based art that didn't rely purely on numbers, formulas or other foundations that didn't utilize meaningful input from a person.  I wanted the foundation to be something meaningful.  For this, I chose a text input.  The next step was then connecting this to meaningful source material.  The image search APIs served this purpose perfectly by turning this text into a connected set of imagery from which the art could then be generated.
 
 ## Images & Videos
 NOTE: For additional images you can either use a relative link to an image on this repo or an absolute link to an externally hosted image.
 
 ![Example Image](project_images/cover.jpg?raw=true "Example Image")
 
-https://www.youtube.com/watch?v=30yGOxJJ2PQ
