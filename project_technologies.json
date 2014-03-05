@@ -1,16 +1,16 @@
 {
     "technologies": {
         "apis": [
-            "insert apis"
+            "Google Custom Search",
+            "FlickR"
         ],
         "platforms": [
-            "insert platforms"
+            "Windows"
         ],
         "toolkits": [
-            "insert toolkits"
         ]
     },
     "themes": [
-        "insert themes"
+        "Dreams"
     ]
 }
