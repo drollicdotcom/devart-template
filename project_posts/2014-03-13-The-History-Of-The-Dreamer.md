@@ -18,9 +18,9 @@ So, I turned it into a server driven web application allowing anyone to submit a
 
 Hands down, the most interesting use of the Dreamer was when someone used various dreams as textures for their clothing in Second Life.   
 
-Somewhere in 2009/2010, the server box was updated and the Dreamer finally went offline.  Fast forward to 2013 when I stumbled across this contest.  
+Somewhere in 2009/2010, the server box was updated and the Dreamer finally went offline.  Fast forward to 2013 when I stumbled across this contest. The Dreamer's last hurrah.
 
-The Dreamer's last hurrah.
+For this contest, I will be reworking the Dreamer's core engine into a new Windows based interactive application.  Something that could obviously be used in an interactive exhibit.  More on that later.
 
 
 
