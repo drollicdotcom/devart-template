@@ -13,12 +13,12 @@ The result is that, even with the same input text, and even with the same input 
 
 Here are a few concrete examples -- the following dreams are the results for the same input text -- "Abstraction."
 
-![Abstraction Number 1](../project_images/abstraction_no_1.png?raw=true "Abstraction Number 1")
+![Abstraction Number 1](../project_images/dreams/abstraction_no_1.png?raw=true "Abstraction Number 1")
 
-![Abstraction Number 3](../project_images/abstraction_no_3.png?raw=true "Abstraction Number 3")
+![Abstraction Number 3](../project_images/dreams/abstraction_no_3.png?raw=true "Abstraction Number 3")
 
-![Abstraction Number 4](../project_images/abstraction_no_4.png?raw=true "Abstraction Number 4")
+![Abstraction Number 4](../project_images/dreams/abstraction_no_4.png?raw=true "Abstraction Number 4")
 
-![Abstraction Number 7](../project_images/abstraction_no_7.png?raw=true "Abstraction Number 7")
+![Abstraction Number 7](../project_images/dreams/abstraction_no_7.png?raw=true "Abstraction Number 7")
 
 
