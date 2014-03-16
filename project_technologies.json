@@ -7,6 +7,11 @@
         "platforms": [
             "Windows"
         ],
+        "languages": [
+            "C",
+            "C++",
+            "C#"
+        ],
         "toolkits": [
         ]
     },
