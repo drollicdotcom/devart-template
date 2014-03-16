@@ -1,12 +1,12 @@
 The Dreamer is a software application which createds abstract paintings through user-supplied text -- but how does it work?  The process can be broken down into 5 steps.  This post will focus the first 3 steps in this process.
 
-<b>STEP #1: HUMAN INPUT</b>
+<b>STEP 1: HUMAN INPUT</b>
 
 Everything starts with some input text from a person.  It can be anything.  I’ve found that even text such as “!!!” can produce interesting results.  But a lot of the fun of Dreamer is to input text that meaningful to you – whether it’s a saying, quote, or something that just popped into your head.  Seeing what The Dreamer will come up with is just fun.
 
 
 
-<b>STEP #2: GATHERING AND SELECTING SOURCE IMAGES</b>
+<b>STEP 2: GATHERING AND SELECTING SOURCE IMAGES</b>
 
 Obviously, the Dreamer isn't creating the abstract paintings from scratch.  Instead, it's using several source images that will serve as a the basis for the painting.  
 
@@ -14,14 +14,15 @@ Using the text input, Dreamer uses image search engines to find matching images.
 
 
 
-<b>STEP #3: IMAGE ANALYSIS & GENERATION OF STROKES</b>
+<b>STEP 3: IMAGE ANALYSIS & GENERATION OF STROKES</b>
 
 With the source images chosen, each is individually analyzed by a painterly algorithm which was described by Shiraishi [1].  This analysis, in a nutshell, is comprised of two steps:  a dithering, followed by brush stroke generation.  Here's an example input image, along with its dithered result:
 
 ![Original](../project_images/bigtiger.jpg?raw=true "Original")
+
 ![Dithered](../project_images/dithered.jpg?raw=true "Dithered")
 
-As you can see, the dithered image consists of a large number of "dots."  These dots essentially tell the algorithm where to do some analysis and create a brush stroke. 
+As you can see, the dithered image consists of a large number of white dots. These dots essentially tell the algorithm where to do some analysis and create a brush stroke. 
 
 The result of this algorithm is a collection of painting strokes which completely describe how to "paint" the original source image. Each painting stroke is comprised of a length, width, rotation, position, and color attribute. 
 
