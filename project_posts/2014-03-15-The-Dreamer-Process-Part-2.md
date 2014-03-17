@@ -1,6 +1,6 @@
 This post will focus on the final 2 steps of the Dreamer process.  Please see the previous post for steps 1-3 in the process.
 
-<b>STEP #4: STROKE COMBINATION AND ORDERING</b>
+<b>STEP 4: STROKE COMBINATION AND ORDERING</b>
 
 With all images having been analyzed by the painterly algorithm, Dreamer now has N disjoint collections of painting stroke parameters, where N is the total number of images analyzed. This constitutes all the information needed by Dreamer to render the final artifact.  Again, rendering these collections individually would result in a very poor blending of the images. 
 
@@ -10,7 +10,7 @@ To achieve a more interwoven and interesting blending, the N disjoint collection
 
 
 
-<b>STEP #5: RENDERING </b>
+<b>STEP 5: RENDERING </b>
 
 With a unified and sorted stroke collection, Dreamer can now begin the rendering process.  So how does it do that?  Again, each stroke in the collection is comprised of the following parameters:
 
