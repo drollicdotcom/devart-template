@@ -8,7 +8,7 @@ As I've mentioned in an earlier post, I will be reworking the Dreamer's engine i
 
 Basic sketch of what I'm thinking:
 
-![UI Sketch](../project_images/sketch.jpg?raw=true "UI Sketch")
+![Sketch](../project_images/sketch.jpg?raw=true "Sketch")
 
 
 Yes, it's very simple.  But I don't want the focus to be on the app.  I want the focus to be on the results. 
