@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://webservices.dreamer.app.drollic.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://webservices.dreamer.app.drollic.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://webservices.dreamer.app.drollic.com">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDreamerStatsRequest">
+    <wsdl:part name="macaddress" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDreamerStatsResponse">
+    <wsdl:part name="Result" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="RecordDreamRequest">
+    <wsdl:part name="macaddress" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="RecordDreamResponse">
+    <wsdl:part name="Result" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="RecordSubmissionRequest">
+    <wsdl:part name="macaddress" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="RecordSubmissionResponse">
+    <wsdl:part name="Result" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDreamerSubmissionEmailRequest">
+    <wsdl:part name="macaddress" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDreamerSubmissionEmailResponse">
+    <wsdl:part name="Result" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="DreamerWebServicePortType">
+    <wsdl:operation name="GetDreamerStats">
+      <wsdl:input message="tns:GetDreamerStatsRequest" />
+      <wsdl:output message="tns:GetDreamerStatsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RecordDream">
+      <wsdl:input message="tns:RecordDreamRequest" />
+      <wsdl:output message="tns:RecordDreamResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RecordSubmission">
+      <wsdl:input message="tns:RecordSubmissionRequest" />
+      <wsdl:output message="tns:RecordSubmissionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDreamerSubmissionEmail">
+      <wsdl:input message="tns:GetDreamerSubmissionEmailRequest" />
+      <wsdl:output message="tns:GetDreamerSubmissionEmailResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DreamerWebServiceBinding" type="tns:DreamerWebServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="GetDreamerStats">
+      <soap:operation soapAction="http://www.drollic.com/projects/dreamer/webservices/DreamerWebServices.php/GetDreamerStats" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://webservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://webservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecordDream">
+      <soap:operation soapAction="http://www.drollic.com/projects/dreamer/webservices/DreamerWebServices.php/RecordDream" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://webservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://webservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecordSubmission">
+      <soap:operation soapAction="http://www.drollic.com/projects/dreamer/webservices/DreamerWebServices.php/RecordSubmission" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://webservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://webservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDreamerSubmissionEmail">
+      <soap:operation soapAction="http://www.drollic.com/projects/dreamer/webservices/DreamerWebServices.php/GetDreamerSubmissionEmail" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://webservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://webservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DreamerWebService">
+    <wsdl:port name="DreamerWebServicePort" binding="tns:DreamerWebServiceBinding">
+      <soap:address location="http://www.drollic.com/projects/dreamer/webservices/DreamerWebServices.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

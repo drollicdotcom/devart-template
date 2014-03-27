@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://videoservices.dreamer.app.drollic.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://videoservices.dreamer.app.drollic.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://videoservices.dreamer.app.drollic.com">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="GetOfflineVideoRequestRequest">
+    <wsdl:part name="servercounter" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOfflineVideoRequestResponse">
+    <wsdl:part name="Result" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteOfflineVideoRequestRequest">
+    <wsdl:part name="postid" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteOfflineVideoRequestResponse">
+    <wsdl:part name="Result" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="DreamerVideoServicePortType">
+    <wsdl:operation name="GetOfflineVideoRequest">
+      <wsdl:input message="tns:GetOfflineVideoRequestRequest" />
+      <wsdl:output message="tns:GetOfflineVideoRequestResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOfflineVideoRequest">
+      <wsdl:input message="tns:DeleteOfflineVideoRequestRequest" />
+      <wsdl:output message="tns:DeleteOfflineVideoRequestResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DreamerVideoServiceBinding" type="tns:DreamerVideoServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="GetOfflineVideoRequest">
+      <soap:operation soapAction="http://www.drollic.com/projects/dreamer/webservices/DreamerOfflineVideoServices.php/GetOfflineVideoRequest" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://videoservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://videoservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteOfflineVideoRequest">
+      <soap:operation soapAction="http://www.drollic.com/projects/dreamer/webservices/DreamerOfflineVideoServices.php/DeleteOfflineVideoRequest" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://videoservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://videoservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DreamerVideoService">
+    <wsdl:port name="DreamerVideoServicePort" binding="tns:DreamerVideoServiceBinding">
+      <soap:address location="http://www.drollic.com/projects/dreamer/webservices/DreamerOfflineVideoServices.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

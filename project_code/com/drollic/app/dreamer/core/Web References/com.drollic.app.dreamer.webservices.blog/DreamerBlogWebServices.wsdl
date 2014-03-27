@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://webservices.dreamer.app.drollic.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://webservices.dreamer.app.drollic.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://webservices.dreamer.app.drollic.com">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SubmitDreamRequest">
+    <wsdl:part name="macaddress" type="xsd:string" />
+    <wsdl:part name="creator" type="xsd:string" />
+    <wsdl:part name="creatorURL" type="xsd:string" />
+    <wsdl:part name="title" type="xsd:string" />
+    <wsdl:part name="dreamURL" type="xsd:string" />
+    <wsdl:part name="originalURLs" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitDreamResponse">
+    <wsdl:part name="Result" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitVideoDreamRequest">
+    <wsdl:part name="macaddress" type="xsd:string" />
+    <wsdl:part name="creator" type="xsd:string" />
+    <wsdl:part name="title" type="xsd:string" />
+    <wsdl:part name="videoHTML" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="SubmitVideoDreamResponse">
+    <wsdl:part name="Result" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="DreamerBlogWebServicePortType">
+    <wsdl:operation name="SubmitDream">
+      <wsdl:input message="tns:SubmitDreamRequest" />
+      <wsdl:output message="tns:SubmitDreamResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SubmitVideoDream">
+      <wsdl:input message="tns:SubmitVideoDreamRequest" />
+      <wsdl:output message="tns:SubmitVideoDreamResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DreamerBlogWebServiceBinding" type="tns:DreamerBlogWebServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="SubmitDream">
+      <soap:operation soapAction="http://www.drollic.com/projects/dreamer/webservices/DreamerBlogWebServices.php/SubmitDream" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://webservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://webservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubmitVideoDream">
+      <soap:operation soapAction="http://www.drollic.com/projects/dreamer/webservices/DreamerBlogWebServices.php/SubmitVideoDream" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://webservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://webservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DreamerBlogWebService">
+    <wsdl:port name="DreamerBlogWebServicePort" binding="tns:DreamerBlogWebServiceBinding">
+      <soap:address location="http://www.drollic.com/projects/dreamer/webservices/DreamerBlogWebServices.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

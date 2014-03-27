@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="com.drollic.app.dreamer.core.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="com_drollic_app_dreamer_core_com_drollic_app_dreamer_webservices_DreamerWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.drollic.com/projects/dreamer/webservices/DreamerWebServices.php</Value>
+    </Setting>
+    <Setting Name="com_drollic_app_dreamer_core_com_drollic_www_DreamerBlogWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.drollic.com/projects/dreamer/webservices/DreamerBlogWebServices.php</Value>
+    </Setting>
+    <Setting Name="com_drollic_app_dreamer_core_com_drollic_www_dreamer_webservices_offline_DreamerOfflineService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.drollic.com/projects/dreamer/webservices/DreamerOfflineServices.php</Value>
+    </Setting>
+    <Setting Name="com_drollic_app_dreamer_core_com_drollic_app_dreamer_webservices_offlinevideo_DreamerOfflineVideoService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.drollic.com/projects/dreamer/webservices/DreamerOfflineVideoServices.php</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

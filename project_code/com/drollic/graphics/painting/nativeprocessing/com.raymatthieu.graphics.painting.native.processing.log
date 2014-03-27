@@ -1,0 +1,1069 @@
+﻿Build started 1/2/2010 12:55:52 PM.
+     1>Project "F:\Ray\Projects\Drollic\Perforce\Latest\com\drollic\graphics\painting\nativeprocessing\com.raymatthieu.graphics.painting.native.processing.vcxproj" on node 9 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\com.drollic.graphics.painting.native.processing.lastbuildstate".
+       _PrepareForBuild:
+         Touching "Release\com.drollic.graphics.painting.native.processing.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\WMSDK\WMFSDK11\include /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Yc"StdAfx.h" /Fp"Release\com.drollic.graphics.painting.native.processing.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         Note: including file: f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\stdafx.h
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\WMSDK\WMFSDK11\include /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Yu"StdAfx.h" /Fp"Release\com.drollic.graphics.painting.native.processing.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /showIncludes /analyze- /errorReport:prompt CompositeNativeMomentsPainter.cpp ComputationProgress.cpp FastRawImage.cpp INativeMomentsPainter.cpp SegementedRegion.cpp WaveletNativeMomentsPainter.cpp wmvFile.cpp wmvFileWithAudio.cpp
+         CompositeNativeMomentsPainter.cpp
+         Note: including file: f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\CompositeNativeMomentsPainter.h
+         Note: including file:  f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\INativeMomentsPainter.h
+         Note: including file:   f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\FastRawImage.h
+         Note: including file:    C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windows.h
+         Note: including file:     C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\excpt.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\sal.h
+         Note: including file:        c:\program files\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\vadefs.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdarg.h
+         Note: including file:     C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windef.h
+         Note: including file:      C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\ctype.h
+         Note: including file:        C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       C:\WMSDK\WMFSDK11\include\specstrings.h
+         Note: including file:        C:\WMSDK\WMFSDK11\include\specstrings_adt.h
+         Note: including file:        C:\WMSDK\WMFSDK11\include\specstrings_strict.h
+         Note: including file:         C:\WMSDK\WMFSDK11\include\specstrings_undef.h
+         Note: including file:       C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\kernelspecs.h
+         Note: including file:        c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\sdv_driverspecs.h
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C3861: 'SAL_functionClass': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C3861: 'SAL_acquire': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C3861: 'SAL_release': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C3861: 'SAL_acquireGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C3861: 'SAL_releaseGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C3861: 'SAL_mustHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C3861: 'SAL_mustHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C3861: 'SAL_neverHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C3861: 'SAL_neverHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2061: syntax error : identifier 'holdsResource$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2061: syntax error : identifier 'holdsResourceGlobal$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C3861: 'SAL_clearDoInit': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C3861: 'SAL_IoGetDmaAdapter': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C3861: 'SAL_return': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C3861: 'SAL_constant': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C3861: 'SAL_strictTypeMatch': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C3861: 'SAL_strictType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C3861: 'SAL_mayBePointer': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C3861: 'SAL_IsAliased': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C3861: 'SAL_NeedsRelease': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C3861: 'SAL_preferredFunction': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C3861: 'SAL_error': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C3861: 'SAL_floatSaved': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C3861: 'SAL_floatRestored': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C3861: 'SAL_floatUsed': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C3861: 'SAL_interlocked': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C3861: 'SAL_inTry': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C3861: 'SAL_IsFormatString': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C3861: 'SAL_dispatchType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C3861: 'SAL_completionType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C3861: 'SAL_callbackType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2061: syntax error : identifier 'inFunctionClass$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): fatal error C1003: error count exceeds 100; stopping compilation
+         ComputationProgress.cpp
+         Note: including file: f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\ComputationProgress.h
+         FastRawImage.cpp
+         Note: including file: f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\FastRawImage.h
+         Note: including file:  C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windows.h
+         Note: including file:   C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h
+         Note: including file:   C:\Program Files\Microsoft Visual Studio 10.0\VC\include\excpt.h
+         Note: including file:    C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\sal.h
+         Note: including file:      c:\program files\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\vadefs.h
+         Note: including file:   C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdarg.h
+         Note: including file:   C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windef.h
+         Note: including file:    C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\ctype.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     C:\WMSDK\WMFSDK11\include\specstrings.h
+         Note: including file:      C:\WMSDK\WMFSDK11\include\specstrings_adt.h
+         Note: including file:      C:\WMSDK\WMFSDK11\include\specstrings_strict.h
+         Note: including file:       C:\WMSDK\WMFSDK11\include\specstrings_undef.h
+         Note: including file:     C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\kernelspecs.h
+         Note: including file:      c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h
+         Note: including file:       c:\program files\microsoft sdks\windows\v7.0a\include\sdv_driverspecs.h
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C3861: 'SAL_functionClass': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C3861: 'SAL_acquire': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C3861: 'SAL_release': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C3861: 'SAL_acquireGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C3861: 'SAL_releaseGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C3861: 'SAL_mustHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C3861: 'SAL_mustHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C3861: 'SAL_neverHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C3861: 'SAL_neverHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2061: syntax error : identifier 'holdsResource$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2061: syntax error : identifier 'holdsResourceGlobal$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C3861: 'SAL_clearDoInit': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C3861: 'SAL_IoGetDmaAdapter': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C3861: 'SAL_return': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C3861: 'SAL_constant': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C3861: 'SAL_strictTypeMatch': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C3861: 'SAL_strictType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C3861: 'SAL_mayBePointer': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C3861: 'SAL_IsAliased': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C3861: 'SAL_NeedsRelease': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C3861: 'SAL_preferredFunction': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C3861: 'SAL_error': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C3861: 'SAL_floatSaved': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C3861: 'SAL_floatRestored': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C3861: 'SAL_floatUsed': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C3861: 'SAL_interlocked': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C3861: 'SAL_inTry': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C3861: 'SAL_IsFormatString': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C3861: 'SAL_dispatchType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C3861: 'SAL_completionType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C3861: 'SAL_callbackType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2061: syntax error : identifier 'inFunctionClass$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): fatal error C1003: error count exceeds 100; stopping compilation
+         INativeMomentsPainter.cpp
+         Note: including file: f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\INativeMomentsPainter.h
+         Note: including file:  f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\FastRawImage.h
+         Note: including file:   C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windows.h
+         Note: including file:    C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h
+         Note: including file:    C:\Program Files\Microsoft Visual Studio 10.0\VC\include\excpt.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\sal.h
+         Note: including file:       c:\program files\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\vadefs.h
+         Note: including file:    C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdarg.h
+         Note: including file:    C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windef.h
+         Note: including file:     C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\ctype.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:      C:\WMSDK\WMFSDK11\include\specstrings.h
+         Note: including file:       C:\WMSDK\WMFSDK11\include\specstrings_adt.h
+         Note: including file:       C:\WMSDK\WMFSDK11\include\specstrings_strict.h
+         Note: including file:        C:\WMSDK\WMFSDK11\include\specstrings_undef.h
+         Note: including file:      C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\kernelspecs.h
+         Note: including file:       c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h
+         Note: including file:        c:\program files\microsoft sdks\windows\v7.0a\include\sdv_driverspecs.h
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C3861: 'SAL_functionClass': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C3861: 'SAL_acquire': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C3861: 'SAL_release': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C3861: 'SAL_acquireGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C3861: 'SAL_releaseGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C3861: 'SAL_mustHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C3861: 'SAL_mustHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C3861: 'SAL_neverHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C3861: 'SAL_neverHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2061: syntax error : identifier 'holdsResource$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2061: syntax error : identifier 'holdsResourceGlobal$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C3861: 'SAL_clearDoInit': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C3861: 'SAL_IoGetDmaAdapter': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C3861: 'SAL_return': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C3861: 'SAL_constant': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C3861: 'SAL_strictTypeMatch': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C3861: 'SAL_strictType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C3861: 'SAL_mayBePointer': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C3861: 'SAL_IsAliased': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C3861: 'SAL_NeedsRelease': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C3861: 'SAL_preferredFunction': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C3861: 'SAL_error': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C3861: 'SAL_floatSaved': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C3861: 'SAL_floatRestored': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C3861: 'SAL_floatUsed': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C3861: 'SAL_interlocked': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C3861: 'SAL_inTry': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C3861: 'SAL_IsFormatString': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C3861: 'SAL_dispatchType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C3861: 'SAL_completionType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C3861: 'SAL_callbackType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2061: syntax error : identifier 'inFunctionClass$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): fatal error C1003: error count exceeds 100; stopping compilation
+         SegementedRegion.cpp
+         Note: including file: f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\SegmentedRegion.h
+         Note: including file:  C:\Program Files\Microsoft Visual Studio 10.0\VC\include\map
+         Note: including file:   C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xtree
+         Note: including file:    C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfunctional
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdlib
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\yvals.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:        C:\Program Files\Microsoft Visual Studio 10.0\VC\include\sal.h
+         Note: including file:         c:\program files\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+         Note: including file:        C:\Program Files\Microsoft Visual Studio 10.0\VC\include\vadefs.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\use_ansi.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits.h
+         Note: including file:        C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xstring
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xmemory
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\new
+         Note: including file:        C:\Program Files\Microsoft Visual Studio 10.0\VC\include\exception
+         Note: including file:         C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xstddef
+         Note: including file:          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstddef
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stddef.h
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files\Microsoft Visual Studio 10.0\VC\include\eh.h
+         Note: including file:          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files\Microsoft Visual Studio 10.0\VC\include\malloc.h
+         Note: including file:          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h
+         Note: including file:          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xutility
+         Note: including file:        C:\Program Files\Microsoft Visual Studio 10.0\VC\include\climits
+         Note: including file:        C:\Program Files\Microsoft Visual Studio 10.0\VC\include\utility
+         Note: including file:         C:\Program Files\Microsoft Visual Studio 10.0\VC\include\iosfwd
+         Note: including file:          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdio
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\swprintf.inl
+         Note: including file:          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstring
+         Note: including file:          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\wchar.h
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\wtime.inl
+         Note: including file:          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdbg.h
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:         C:\Program Files\Microsoft Visual Studio 10.0\VC\include\type_traits
+         Note: including file:          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\limits
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\ymath.h
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cfloat
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\float.h
+         Note: including file:             C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:             C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtwrn.h
+         Note: including file:              C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cmath
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\math.h
+         Note: including file:             C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xtr1common
+         Note: including file:          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxtype_traits
+         Note: including file:    C:\Program Files\Microsoft Visual Studio 10.0\VC\include\memory
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\typeinfo
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\intrin.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\setjmp.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\immintrin.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\wmmintrin.h
+         Note: including file:        C:\Program Files\Microsoft Visual Studio 10.0\VC\include\nmmintrin.h
+         Note: including file:         C:\Program Files\Microsoft Visual Studio 10.0\VC\include\smmintrin.h
+         Note: including file:          C:\Program Files\Microsoft Visual Studio 10.0\VC\include\tmmintrin.h
+         Note: including file:           C:\Program Files\Microsoft Visual Studio 10.0\VC\include\pmmintrin.h
+         Note: including file:            C:\Program Files\Microsoft Visual Studio 10.0\VC\include\emmintrin.h
+         Note: including file:             C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xmmintrin.h
+         Note: including file:              C:\Program Files\Microsoft Visual Studio 10.0\VC\include\mmintrin.h
+         Note: including file:               C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\mm3dnow.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\mmintrin.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xfwrap1
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\xxshared
+         Note: including file:    C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdexcept
+         Note: including file:  C:\Program Files\Microsoft Visual Studio 10.0\VC\include\list
+         Note: including file:  f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\NativeStroke.h
+         Note: including file:   f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\PixelData.h
+         Note: including file:  f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\StrokeContainer.h
+         Note: including file:   f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\FastRawImage.h
+         Note: including file:    C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windows.h
+         Note: including file:     C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\excpt.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdarg.h
+         Note: including file:     C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windef.h
+         Note: including file:      C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\ctype.h
+         Note: including file:        C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       C:\WMSDK\WMFSDK11\include\specstrings.h
+         Note: including file:        C:\WMSDK\WMFSDK11\include\specstrings_adt.h
+         Note: including file:        C:\WMSDK\WMFSDK11\include\specstrings_strict.h
+         Note: including file:         C:\WMSDK\WMFSDK11\include\specstrings_undef.h
+         Note: including file:       C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\kernelspecs.h
+         Note: including file:        c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\sdv_driverspecs.h
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C3861: 'SAL_functionClass': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C3861: 'SAL_acquire': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C3861: 'SAL_release': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C3861: 'SAL_acquireGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C3861: 'SAL_releaseGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C3861: 'SAL_mustHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C3861: 'SAL_mustHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C3861: 'SAL_neverHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C3861: 'SAL_neverHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2061: syntax error : identifier 'holdsResource$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2061: syntax error : identifier 'holdsResourceGlobal$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C3861: 'SAL_clearDoInit': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C3861: 'SAL_IoGetDmaAdapter': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C3861: 'SAL_return': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C3861: 'SAL_constant': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C3861: 'SAL_strictTypeMatch': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C3861: 'SAL_strictType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C3861: 'SAL_mayBePointer': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C3861: 'SAL_IsAliased': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C3861: 'SAL_NeedsRelease': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C3861: 'SAL_preferredFunction': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C3861: 'SAL_error': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C3861: 'SAL_floatSaved': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C3861: 'SAL_floatRestored': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C3861: 'SAL_floatUsed': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C3861: 'SAL_interlocked': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C3861: 'SAL_inTry': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C3861: 'SAL_IsFormatString': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C3861: 'SAL_dispatchType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C3861: 'SAL_completionType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C3861: 'SAL_callbackType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2061: syntax error : identifier 'inFunctionClass$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): fatal error C1003: error count exceeds 100; stopping compilation
+         WaveletNativeMomentsPainter.cpp
+         Note: including file: f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\WaveletNativeMomentsPainter.h
+         Note: including file:  f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\INativeMomentsPainter.h
+         Note: including file:   f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\FastRawImage.h
+         Note: including file:    C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windows.h
+         Note: including file:     C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\excpt.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\sal.h
+         Note: including file:        c:\program files\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\vadefs.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdarg.h
+         Note: including file:     C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windef.h
+         Note: including file:      C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\ctype.h
+         Note: including file:        C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:       C:\WMSDK\WMFSDK11\include\specstrings.h
+         Note: including file:        C:\WMSDK\WMFSDK11\include\specstrings_adt.h
+         Note: including file:        C:\WMSDK\WMFSDK11\include\specstrings_strict.h
+         Note: including file:         C:\WMSDK\WMFSDK11\include\specstrings_undef.h
+         Note: including file:       C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\kernelspecs.h
+         Note: including file:        c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h
+         Note: including file:         c:\program files\microsoft sdks\windows\v7.0a\include\sdv_driverspecs.h
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C3861: 'SAL_functionClass': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C3861: 'SAL_acquire': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C3861: 'SAL_release': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C3861: 'SAL_acquireGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C3861: 'SAL_releaseGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C3861: 'SAL_mustHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C3861: 'SAL_mustHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C3861: 'SAL_neverHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C3861: 'SAL_neverHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2061: syntax error : identifier 'holdsResource$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2061: syntax error : identifier 'holdsResourceGlobal$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C3861: 'SAL_clearDoInit': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C3861: 'SAL_IoGetDmaAdapter': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C3861: 'SAL_return': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C3861: 'SAL_constant': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C3861: 'SAL_strictTypeMatch': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C3861: 'SAL_strictType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C3861: 'SAL_mayBePointer': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C3861: 'SAL_IsAliased': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C3861: 'SAL_NeedsRelease': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C3861: 'SAL_preferredFunction': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C3861: 'SAL_error': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C3861: 'SAL_floatSaved': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C3861: 'SAL_floatRestored': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C3861: 'SAL_floatUsed': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C3861: 'SAL_interlocked': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C3861: 'SAL_inTry': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C3861: 'SAL_IsFormatString': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C3861: 'SAL_dispatchType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C3861: 'SAL_completionType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C3861: 'SAL_callbackType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2061: syntax error : identifier 'inFunctionClass$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): fatal error C1003: error count exceeds 100; stopping compilation
+         wmvFile.cpp
+         Note: including file: f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\wmvfile.h
+         Note: including file:  C:\WMSDK\WMFSDK11\include\wmsdk.h
+         Note: including file:   C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windows.h
+         Note: including file:    C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h
+         Note: including file:    C:\Program Files\Microsoft Visual Studio 10.0\VC\include\excpt.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\sal.h
+         Note: including file:       c:\program files\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\vadefs.h
+         Note: including file:    C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdarg.h
+         Note: including file:    C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windef.h
+         Note: including file:     C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\ctype.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:      C:\WMSDK\WMFSDK11\include\specstrings.h
+         Note: including file:       C:\WMSDK\WMFSDK11\include\specstrings_adt.h
+         Note: including file:       C:\WMSDK\WMFSDK11\include\specstrings_strict.h
+         Note: including file:        C:\WMSDK\WMFSDK11\include\specstrings_undef.h
+         Note: including file:      C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\kernelspecs.h
+         Note: including file:       c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h
+         Note: including file:        c:\program files\microsoft sdks\windows\v7.0a\include\sdv_driverspecs.h
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C3861: 'SAL_functionClass': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C3861: 'SAL_acquire': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C3861: 'SAL_release': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C3861: 'SAL_acquireGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C3861: 'SAL_releaseGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C3861: 'SAL_mustHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C3861: 'SAL_mustHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C3861: 'SAL_neverHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C3861: 'SAL_neverHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2061: syntax error : identifier 'holdsResource$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2061: syntax error : identifier 'holdsResourceGlobal$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C3861: 'SAL_clearDoInit': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C3861: 'SAL_IoGetDmaAdapter': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C3861: 'SAL_return': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C3861: 'SAL_constant': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C3861: 'SAL_strictTypeMatch': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C3861: 'SAL_strictType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C3861: 'SAL_mayBePointer': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C3861: 'SAL_IsAliased': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C3861: 'SAL_NeedsRelease': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C3861: 'SAL_preferredFunction': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C3861: 'SAL_error': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C3861: 'SAL_floatSaved': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C3861: 'SAL_floatRestored': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C3861: 'SAL_floatUsed': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C3861: 'SAL_interlocked': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C3861: 'SAL_inTry': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C3861: 'SAL_IsFormatString': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C3861: 'SAL_dispatchType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C3861: 'SAL_completionType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C3861: 'SAL_callbackType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2061: syntax error : identifier 'inFunctionClass$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): fatal error C1003: error count exceeds 100; stopping compilation
+         wmvFileWithAudio.cpp
+         Note: including file: f:\ray\projects\drollic\perforce\latest\com\drollic\graphics\painting\nativeprocessing\wmvfileWithAudio.h
+         Note: including file:  C:\WMSDK\WMFSDK11\include\wmsdk.h
+         Note: including file:   C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windows.h
+         Note: including file:    C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\sdkddkver.h
+         Note: including file:    C:\Program Files\Microsoft Visual Studio 10.0\VC\include\excpt.h
+         Note: including file:     C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\sal.h
+         Note: including file:       c:\program files\microsoft visual studio 10.0\vc\include\codeanalysis\sourceannotations.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\vadefs.h
+         Note: including file:    C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdarg.h
+         Note: including file:    C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\windef.h
+         Note: including file:     C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h
+         Note: including file:      C:\Program Files\Microsoft Visual Studio 10.0\VC\include\ctype.h
+         Note: including file:       C:\Program Files\Microsoft Visual Studio 10.0\VC\include\crtdefs.h
+         Note: including file:      C:\WMSDK\WMFSDK11\include\specstrings.h
+         Note: including file:       C:\WMSDK\WMFSDK11\include\specstrings_adt.h
+         Note: including file:       C:\WMSDK\WMFSDK11\include\specstrings_strict.h
+         Note: including file:        C:\WMSDK\WMFSDK11\include\specstrings_undef.h
+         Note: including file:      C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\kernelspecs.h
+         Note: including file:       c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h
+         Note: including file:        c:\program files\microsoft sdks\windows\v7.0a\include\sdv_driverspecs.h
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C3861: 'SAL_functionClass': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(356): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C3861: 'SAL_acquire': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(374): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C3861: 'SAL_release': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(381): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C3861: 'SAL_acquireGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(389): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C3861: 'SAL_releaseGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(399): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C3861: 'SAL_mustHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(409): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C3861: 'SAL_mustHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(417): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C3861: 'SAL_neverHold': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(427): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C3861: 'SAL_neverHoldGlobal': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(435): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2061: syntax error : identifier 'holdsResource$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(443): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2061: syntax error : identifier 'holdsResourceGlobal$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(444): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C3861: 'SAL_clearDoInit': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(532): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C3861: 'SAL_IoGetDmaAdapter': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(537): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C3861: 'SAL_return': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(554): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C3861: 'SAL_constant': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(568): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C3861: 'SAL_strictTypeMatch': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(581): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C3861: 'SAL_strictType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(589): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C3861: 'SAL_mayBePointer': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(604): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C3861: 'SAL_IsAliased': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(620): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C3861: 'SAL_NeedsRelease': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(627): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C3861: 'SAL_preferredFunction': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(642): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C3861: 'SAL_error': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(651): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C3861: 'SAL_floatSaved': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(663): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C3861: 'SAL_floatRestored': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(668): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C3861: 'SAL_floatUsed': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(674): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2144: syntax error : 'void' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C3861: 'SAL_interlocked': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(685): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2144: syntax error : '__SAL_YesNo' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C3861: 'SAL_inTry': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(689): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C3861: 'SAL_IsFormatString': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(699): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2144: syntax error : '__int64' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C3861: 'SAL_dispatchType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(707): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C3861: 'SAL_completionType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(717): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2065: '__AuToQuOtE' : undeclared identifier
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2144: syntax error : 'char' should be preceded by ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C3861: 'SAL_callbackType': identifier not found
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(722): error C2059: syntax error : ')'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2061: syntax error : identifier 'inFunctionClass$'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): error C2143: syntax error : missing ')' before ';'
+     1>c:\program files\microsoft sdks\windows\v7.0a\include\DriverSpecs.h(836): fatal error C1003: error count exceeds 100; stopping compilation
+     1>Done Building Project "F:\Ray\Projects\Drollic\Perforce\Latest\com\drollic\graphics\painting\nativeprocessing\com.raymatthieu.graphics.painting.native.processing.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.52

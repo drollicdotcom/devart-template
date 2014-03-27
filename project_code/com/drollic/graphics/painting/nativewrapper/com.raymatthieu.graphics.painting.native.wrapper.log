@@ -1,0 +1,24 @@
+﻿Build started 1/2/2010 12:36:11 PM.
+     1>Project "F:\Ray\Projects\Drollic\Perforce\Latest\com\drollic\graphics\painting\nativewrapper\com.raymatthieu.graphics.painting.native.wrapper.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\com.drollic.graphics.painting.native.wrapper.lastbuildstate".
+       _PrepareForBuild:
+         Touching "Release\com.drollic.graphics.painting.native.wrapper.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\nativeprocessing /clr /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yc"StdAfx.h" /Fp"Release\com.drollic.graphics.painting.native.wrapper.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FUF:\Ray\Projects\Drollic\Perforce\Latest\com\drollic\graphics\bin\Release\com.drollic.graphics.dll /FUF:\Ray\Projects\Drollic\Perforce\Latest\com\drollic\util\bin\Release\com.drollic.util.dll /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt Stdafx.cpp
+         Stdafx.cpp
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\nativeprocessing /clr /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Yu"StdAfx.h" /Fp"Release\com.drollic.graphics.painting.native.wrapper.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FUF:\Ray\Projects\Drollic\Perforce\Latest\com\drollic\graphics\bin\Release\com.drollic.graphics.dll /FUF:\Ray\Projects\Drollic\Perforce\Latest\com\drollic\util\bin\Release\com.drollic.util.dll /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp CompositeNativeMomentPainterWrapper.cpp WaveletNativeMomentPainterWrapper.cpp
+         AssemblyInfo.cpp
+     1>AssemblyInfo.cpp(20): fatal error C1859: 'Release\com.drollic.graphics.painting.native.wrapper.pch' unexpected precompiled header error, simply rerunning the compiler might fix this problem
+         CompositeNativeMomentPainterWrapper.cpp
+     1>CompositeNativeMomentPainterWrapper.cpp(20): fatal error C1859: 'Release\com.drollic.graphics.painting.native.wrapper.pch' unexpected precompiled header error, simply rerunning the compiler might fix this problem
+         WaveletNativeMomentPainterWrapper.cpp
+     1>WaveletNativeMomentPainterWrapper.cpp(20): fatal error C1859: 'Release\com.drollic.graphics.painting.native.wrapper.pch' unexpected precompiled header error, simply rerunning the compiler might fix this problem
+         Generating Code...
+     1>Done Building Project "F:\Ray\Projects\Drollic\Perforce\Latest\com\drollic\graphics\painting\nativewrapper\com.raymatthieu.graphics.painting.native.wrapper.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.93

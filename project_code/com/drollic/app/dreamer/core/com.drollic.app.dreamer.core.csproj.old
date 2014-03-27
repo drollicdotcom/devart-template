@@ -1,0 +1,259 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CBFAAD40-CE27-4CBC-A4FB-D4CFD0C8E3CB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>com.drollic.app.dreamer.core</RootNamespace>
+    <AssemblyName>com.drollic.app.dreamer.core</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\..\..\..\..\Keys\com.drollic.app.dreamer.keys.private.snk</AssemblyOriginatorKeyFile>
+    <SccProjectName>Perforce Project</SccProjectName>
+    <SccLocalPath>..\..\..\..\..</SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>MSSCCI:Perforce SCM</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Composition.cs" />
+    <Compile Include="LayeredComposition.cs" />
+    <Compile Include="LayeredSketch.cs" />
+    <Compile Include="OfflineVideoDreamManager.cs" />
+    <Compile Include="NoSketch.cs" />
+    <Compile Include="OfflineDreamManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RandomComposition.cs" />
+    <Compile Include="RandomSketch.cs" />
+    <Compile Include="SimpleComposition.cs" />
+    <Compile Include="SimpleSketch.cs" />
+    <Compile Include="Sketch.cs" />
+    <Compile Include="StatsManager.cs" />
+    <Compile Include="StorageManager.cs" />
+    <Compile Include="Subject.cs" />
+    <Compile Include="SubjectManager.cs" />
+    <Compile Include="SubmissionManager.cs" />
+    <Compile Include="UserSpecifiedComposition.cs" />
+    <Compile Include="UserSpecifiedSketch.cs" />
+    <Compile Include="VideoComposition.cs" />
+    <Compile Include="WaveletTransformComposition.cs" />
+    <Compile Include="WaveletTransformSketch.cs" />
+    <Compile Include="WaveletTransformV2Composition.cs" />
+    <Compile Include="WaveletTransformV2Sketch.cs" />
+    <Compile Include="Web References\com.drollic.app.dreamer.webservices.offlinevideo\Reference.cs">
+      <SubType>code</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\com.drollic.app.dreamer.webservices\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\com.drollic.app.dreamer.webservices.blog\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\com.drollic.app.dreamer.webservices.offline\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\audio\composition\com.drollic.audio.composition.csproj">
+      <Project>{72806518-32C8-4BE5-B59E-829E82CAA7C9}</Project>
+      <Name>com.drollic.audio.composition</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\graphics\com.drollic.graphics.csproj">
+      <Project>{554F14CD-FA54-4BC7-822F-1449D16E447B}</Project>
+      <Name>com.drollic.graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\graphics\painting\com.drollic.graphics.painting.csproj">
+      <Project>{14D10B45-FE92-4667-9DDB-36EBAFEF4D74}</Project>
+      <Name>com.drollic.graphics.painting</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\graphics\wavelets\com.drollic.graphics.wavelets.csproj">
+      <Project>{7BC6D0D0-62FF-48ED-8C0C-12EF8CEF4111}</Project>
+      <Name>com.drollic.graphics.wavelets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\net\com.drollic.net.csproj">
+      <Project>{760F7311-4571-49CF-B350-B4E033AB53BB}</Project>
+      <Name>com.drollic.net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\net\search\image\com.drollic.net.search.image.csproj">
+      <Project>{BF57E63E-E33A-4721-BF60-8BC58CAC9728}</Project>
+      <Name>com.drollic.net.search.image</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\storage\amazon\com.drollic.storage.amazon.csproj">
+      <Project>{0CA21319-F84D-40F9-A17B-4D8B6FCD069F}</Project>
+      <Name>com.drollic.storage.amazon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\storage\youtube\com.drollic.storage.youtube.csproj">
+      <Project>{BB858154-A7B6-4FC3-A096-467D40AE32F9}</Project>
+      <Name>com.drollic.storage.youtube</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\util\com.drollic.util.csproj">
+      <Project>{253E844D-72B1-4537-BFE7-3E271E9708A3}</Project>
+      <Name>com.drollic.util</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\video\com.drollic.video.csproj">
+      <Project>{7FB48172-F663-4970-BBC1-BFE077E738A1}</Project>
+      <Name>com.drollic.video</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Keys\com.drollic.app.dreamer.keys.private.snk">
+      <Link>Properties\com.drollic.app.dreamer.keys.private.snk</Link>
+    </None>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>
+      </SubType>
+    </None>
+    <None Include="Web References\com.drollic.app.dreamer.webservices.offlinevideo\DreamerOfflineVideoServices.wsdl" />
+    <None Include="Web References\com.drollic.app.dreamer.webservices.offlinevideo\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\com.drollic.app.dreamer.webservices\DreamerWebServices.wsdl" />
+    <None Include="Web References\com.drollic.app.dreamer.webservices\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\com.drollic.app.dreamer.webservices.blog\DreamerBlogWebServices.wsdl" />
+    <None Include="Web References\com.drollic.app.dreamer.webservices.blog\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\com.drollic.app.dreamer.webservices.offline\DreamerOfflineServices.wsdl" />
+    <None Include="Web References\com.drollic.app.dreamer.webservices.offline\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.drollic.com/projects/dreamer/webservices/DreamerBlogWebServices.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\com.drollic.app.dreamer.webservices.blog\</RelPath>
+      <UpdateFromURL>http://www.drollic.com/projects/dreamer/webservices/DreamerBlogWebServices.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>com_drollic_app_dreamer_core_com_drollic_www_DreamerBlogWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.drollic.com/projects/dreamer/webservices/DreamerOfflineServices.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\com.drollic.app.dreamer.webservices.offline\</RelPath>
+      <UpdateFromURL>http://www.drollic.com/projects/dreamer/webservices/DreamerOfflineServices.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>com_drollic_app_dreamer_core_com_drollic_www_dreamer_webservices_offline_DreamerOfflineService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.drollic.com/projects/dreamer/webservices/DreamerOfflineVideoServices.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\com.drollic.app.dreamer.webservices.offlinevideo\</RelPath>
+      <UpdateFromURL>http://www.drollic.com/projects/dreamer/webservices/DreamerOfflineVideoServices.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>com_drollic_app_dreamer_core_com_drollic_app_dreamer_webservices_offlinevideo_DreamerOfflineVideoService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://www.drollic.com/projects/dreamer/webservices/DreamerWebServices.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\com.drollic.app.dreamer.webservices\</RelPath>
+      <UpdateFromURL>http://www.drollic.com/projects/dreamer/webservices/DreamerWebServices.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>com_drollic_app_dreamer_core_com_drollic_app_dreamer_webservices_DreamerWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMEncoderLib">
+      <Guid>{632B6060-BBC6-11D2-A329-006097C4E476}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movieTitleFrame.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movieTitleFrame2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

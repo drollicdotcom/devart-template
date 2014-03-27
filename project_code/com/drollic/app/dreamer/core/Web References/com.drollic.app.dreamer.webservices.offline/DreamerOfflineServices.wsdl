@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://offlineservices.dreamer.app.drollic.com" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://offlineservices.dreamer.app.drollic.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://offlineservices.dreamer.app.drollic.com">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="GetOfflineDreamRequestRequest">
+    <wsdl:part name="servercounter" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:message name="GetOfflineDreamRequestResponse">
+    <wsdl:part name="Result" type="xsd:string" />
+  </wsdl:message>
+  <wsdl:portType name="DreamerOfflineServicePortType">
+    <wsdl:operation name="GetOfflineDreamRequest">
+      <wsdl:input message="tns:GetOfflineDreamRequestRequest" />
+      <wsdl:output message="tns:GetOfflineDreamRequestResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="DreamerOfflineServiceBinding" type="tns:DreamerOfflineServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="GetOfflineDreamRequest">
+      <soap:operation soapAction="http://www.drollic.com/projects/dreamer/webservices/DreamerOfflineServices.php/GetOfflineDreamRequest" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="http://offlineservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="http://offlineservices.dreamer.app.drollic.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DreamerOfflineService">
+    <wsdl:port name="DreamerOfflineServicePort" binding="tns:DreamerOfflineServiceBinding">
+      <soap:address location="http://www.drollic.com/projects/dreamer/webservices/DreamerOfflineServices.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
